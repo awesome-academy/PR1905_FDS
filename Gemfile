@@ -3,10 +3,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
 gem 'slim-rails'
+
+gem 'carrierwave'   
+gem 'bootstrap-sass'
+gem "paranoia"
 gem 'devise'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
-gem "paranoia", "~> 2.2"
 gem 'adminlte-rails'
 gem "thor", "~> 0.19.1"
 gem 'pry-rails'
